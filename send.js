@@ -29,7 +29,6 @@ const SUBJECT = 'La IA no se implementa sola — Casos de Éxito 2026';
 
 // Mapa: ruta del archivo  ->  cid usado en el HTML
 const IMAGES = {
-  'img/out/hero-glow.png':        'heroglow',
   'img/out/zafirus.png':          'zafirus',
   'img/out/federada.png':         'federada',
   'img/out/hospital-espanol.png': 'hospitalespanol',
