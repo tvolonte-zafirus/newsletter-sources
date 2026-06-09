@@ -16,6 +16,7 @@ const CDN_BASE = 'https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-source
 const CDN_REF = '@cc0f8dc7c5834fcbf1616373fbd38285e75c0a12'; // commit fijo: evita el cache de jsDelivr
 
 const LOCAL_PATHS = [
+  'img/out/hero-glow.png',
   'img/out/zafirus.png',
   'img/out/federada.png',
   'img/out/hospital-espanol.png',
