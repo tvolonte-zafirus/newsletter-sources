@@ -13,7 +13,7 @@ const fs = require('fs');
 const path = require('path');
 
 const CDN_BASE = 'https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources';
-const CDN_REF = '@c05263e4c3ac5f3d24df465cb14666c7feb1c21e'; // commit fijo: evita el cache de jsDelivr
+const CDN_REF = '@1b5eb56f042b15c896c63e6f777384d90dc34581'; // commit fijo: evita el cache de jsDelivr
 
 const LOCAL_PATHS = [
   'img/out/zafirus.png',
