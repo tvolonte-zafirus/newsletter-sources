@@ -11,7 +11,7 @@ const sharp = require('sharp');
 const path = require('path');
 const P = (f) => path.join(__dirname, f);
 
-const PAD = 60;
+const PAD = 80;
 
 async function glow(file) {
   const meta = await sharp(P(file)).metadata();
@@ -32,15 +32,16 @@ async function glow(file) {
       .png().toBuffer();
   };
 
-  const blueGlow = await sharp(await padded('#4C9BD5')).blur(26).png().toBuffer();
-  const whiteGlow = await sharp(await padded('#dfefff')).blur(11).png().toBuffer();
+  // v2: aura azul difusa tipo "ambient" (sin rim blanco duro)
+  const auraWide = await sharp(await padded('#4C9BD5')).blur(48).png().toBuffer();
+  const auraMid = await sharp(await padded('#6FB2E6')).blur(22).png().toBuffer();
   const phone = await sharp(P(file)).toBuffer();
 
   const out = await sharp({ create: { width: W, height: H, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
     .composite([
-      { input: blueGlow, top: 0, left: 0 },
-      { input: blueGlow, top: 0, left: 0 },
-      { input: whiteGlow, top: 0, left: 0 },
+      { input: auraWide, top: 0, left: 0 },
+      { input: auraWide, top: 0, left: 0 },
+      { input: auraMid, top: 0, left: 0 },
       { input: phone, top: PAD, left: PAD },
     ])
     .png().toBuffer();
