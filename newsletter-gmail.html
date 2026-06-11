@@ -9,14 +9,14 @@
   <!--
   ============================================================
   IMAGENES A HOSTEAR (Gmail NO muestra base64 ni SVG).
-  Reemplazá cada src por su URL pública HTTPS antes de enviar:
-    img/out/zafirus.png            -> logo Zafirus (header y footer)
-    img/phones/federada-phone.png  -> celular app Federada    [LO ENVIA EL USUARIO]
-    img/out/federada.png           -> logo Federada
-    img/phones/espanol-phones.png  -> dos celulares app Español [LO ENVIA EL USUARIO]
-    img/out/hospital-espanol.png   -> logo Hospital Español
-    img/out/gamma-waveform.png     -> onda "Transcribiendo"
-    img/out/gamma.png              -> logo Grupo Gamma
+  Las grandes son JPG aplanados sobre negro (livianos, nítidos):
+    img/out/zafirus.png            -> logo Zafirus (header y footer)  [PNG, transparente]
+    img/out/federada.png           -> logo Federada                   [PNG]
+    img/out/hospital-espanol.png   -> logo Hospital Español           [PNG]
+    img/out/gamma.png              -> logo Grupo Gamma                 [PNG]
+    img/phones/federada-phone.jpg  -> celular app Federada (glow)      [JPG]
+    img/phones/espanol-phones.jpg  -> celulares app Español (glow)     [JPG]
+    img/out/gamma-card.jpg         -> mock registro por voz (glow)     [JPG]
   ============================================================
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,265 +38,211 @@
     <tr>
       <td align="center" style="padding:0;">
 
-        <table role="presentation" width="620" cellpadding="0" cellspacing="0" border="0" style="width:620px; max-width:620px; font-family:'Sora', Arial, Helvetica, sans-serif; background-color:#000000; background-image:radial-gradient(circle 480px at 50% -40px, rgba(76,155,213,0.45) 0%, rgba(57,131,184,0.18) 42%, rgba(0,0,0,0) 72%);">
+        <table role="presentation" width="680" cellpadding="0" cellspacing="0" border="0" style="width:680px; max-width:680px; font-family:'Sora', Arial, Helvetica, sans-serif; background-color:#000000; background-image:radial-gradient(circle 560px at 50% -60px, rgba(76,155,213,0.50) 0%, rgba(57,131,184,0.20) 42%, rgba(0,0,0,0) 72%);">
 
-          <!-- ============ HERO (glow azul en vivo via CSS) ============ -->
+          <!-- ============ HERO ============ -->
           <tr>
-            <td style="padding:40px 36px 0 36px;">
+            <td style="padding:48px 44px 0 44px;">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td align="left" valign="middle" style="width:60%;">
-                    <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@2df0129557efca02896dfe623feba3d8001dcd8b/img/out/zafirus.png" width="150" alt="Zafirus" style="display:block; width:150px; height:auto; border:0;">
+                    <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@db070f77729dc54eef4cd6867de9091b15b5bbf9/img/out/zafirus.png" width="180" alt="Zafirus" style="display:block; width:180px; height:auto; border:0;">
                   </td>
                   <td align="right" valign="middle" style="width:40%;">
-                    <span style="color:#3983B8; font-size:13px; letter-spacing:3px; font-weight:bold;">2026</span>
+                    <span style="color:#3983B8; font-size:15px; letter-spacing:4px; font-weight:bold;">2026</span>
                   </td>
                 </tr>
               </table>
             </td>
           </tr>
           <tr>
-            <td style="padding:40px 36px 0 36px;">
-              <span style="color:#4C9BD5; font-size:13px; letter-spacing:4px; font-weight:bold; text-transform:uppercase;">Casos de Éxito</span>
-              <h1 style="margin:14px 0 0 0; color:#FFFFFF; font-size:46px; line-height:1.08; font-weight:bold; letter-spacing:-1px;">
+            <td style="padding:52px 44px 0 44px;">
+              <span style="color:#4C9BD5; font-size:15px; letter-spacing:5px; font-weight:bold; text-transform:uppercase;">Casos de Éxito</span>
+              <h1 style="margin:18px 0 0 0; color:#FFFFFF; font-size:60px; line-height:1.04; font-weight:bold; letter-spacing:-1.5px;">
                 La <span style="color:#4C9BD5;">IA</span> no se<br>implementa <span style="color:#4C9BD5;">sola.</span>
               </h1>
-              <p style="margin:22px 0 0 0; color:#E5E5E5; font-size:20px; line-height:1.55;">
+              <p style="margin:30px 0 0 0; color:#E5E5E5; font-size:24px; line-height:1.5;">
                 Tres instituciones de salud. Tres problemas reales. Tres soluciones que <strong style="color:#FFFFFF;">ya están funcionando</strong>.
               </p>
             </td>
           </tr>
 
-          <!-- ÍNDICE editorial -->
+          <!-- ============ CASO 01 · FEDERADA ============ -->
           <tr>
-            <td style="padding:30px 36px 8px 36px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid #13233B;">
-                <tr>
-                  <td style="padding:18px 0 0 0;">
-                    <span style="color:#4C9BD5; font-size:15px; font-weight:bold;">01</span>
-                    <span style="color:#E5E5E5; font-size:15px;">&nbsp; Federada</span>
-                    <span style="color:#3983B8; font-size:15px; font-weight:bold;">&nbsp;&nbsp;&nbsp; 02</span>
-                    <span style="color:#E5E5E5; font-size:15px;">&nbsp; Hospital Español</span>
-                    <span style="color:#4C9BD5; font-size:15px; font-weight:bold;">&nbsp;&nbsp;&nbsp; 03</span>
-                    <span style="color:#E5E5E5; font-size:15px;">&nbsp; Grupo Gamma</span>
-                  </td>
-                </tr>
+            <td style="padding:64px 44px 0 44px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid #1c2e49;">
+                <tr><td style="padding-top:40px;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                    <td valign="middle" align="left">
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="56" height="5" style="background-color:#4C9BD5; font-size:0; line-height:0;">&nbsp;</td>
+                      </tr></table>
+                      <p style="margin:16px 0 0 0; color:#4C9BD5; font-size:16px; letter-spacing:4px; font-weight:bold; text-transform:uppercase;">Caso 01</p>
+                    </td>
+                    <td valign="middle" align="right">
+                      <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@db070f77729dc54eef4cd6867de9091b15b5bbf9/img/out/federada.png" width="150" alt="Federada Salud" style="display:block; width:150px; height:auto; border:0;">
+                    </td>
+                  </tr></table>
+                  <h2 style="margin:24px 0 0 0; color:#FFFFFF; font-size:40px; line-height:1.12; font-weight:bold; letter-spacing:-0.5px;">
+                    Agente de IA para auditoría y validación documental
+                  </h2>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding:36px 24px 0 24px;">
+              <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@db070f77729dc54eef4cd6867de9091b15b5bbf9/img/phones/federada-phone.jpg" width="632" alt="App Federada" style="display:block; width:100%; max-width:632px; height:auto; border:0; margin:0 auto;">
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:28px 44px 0 44px;">
+              <p style="margin:0 0 8px 0; color:#4C9BD5; font-size:14px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// El problema</p>
+              <p style="margin:0 0 30px 0; color:#E5E5E5; font-size:21px; line-height:1.6;">
+                Revisar a mano facturas, prestaciones y prescripciones —incluso manuscritos y firmas— es lento y abre la puerta al error y al fraude.
+              </p>
+              <p style="margin:0 0 8px 0; color:#4C9BD5; font-size:14px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// La solución</p>
+              <p style="margin:0; color:#E5E5E5; font-size:21px; line-height:1.6;">
+                Un agente que lee, interpreta y valida la documentación médica de forma automática: refuerza controles, previene fraude y se integra al core de la organización.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:36px 44px 0 44px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#4C9BD5; border-radius:18px;">
+                <tr><td style="padding:34px 40px;">
+                  <span style="color:#101D30; font-size:72px; font-weight:bold; line-height:0.9;">+140.000</span>
+                  <p style="margin:12px 0 0 0; color:#13233B; font-size:18px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase;">Afiliados impactados</p>
+                </td></tr>
               </table>
             </td>
           </tr>
 
-          <!-- ============ CASO 01 · FEDERADA (rosa) ============ -->
+          <!-- ============ CASO 02 · HOSPITAL ESPAÑOL ============ -->
           <tr>
-            <td style="padding:26px 22px 0 22px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#13233B; border-radius:22px; overflow:hidden;">
-                <!-- banda de color con logo -->
-                <tr>
-                  <td align="center" style="background-color:#4C9BD5; padding:18px 30px;">
-                    <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@2df0129557efca02896dfe623feba3d8001dcd8b/img/out/federada.png" width="150" alt="Federada Salud" style="display:inline-block; width:150px; height:auto; border:0;">
-                  </td>
-                </tr>
-                <!-- número gigante + titulo -->
-                <tr>
-                  <td style="padding:30px 32px 0 32px;">
-                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td valign="top" style="padding-right:18px;">
-                          <span style="color:#4C9BD5; font-size:64px; font-weight:bold; line-height:0.85;">01</span>
-                        </td>
-                        <td valign="middle">
-                          <h2 style="margin:0; color:#FFFFFF; font-size:27px; line-height:1.2; font-weight:bold;">
-                            Agente de IA para auditoría y validación documental
-                          </h2>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:26px 30px 4px 18px;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td valign="middle" width="50%" style="padding-right:6px;">
-                          <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@2df0129557efca02896dfe623feba3d8001dcd8b/img/phones/federada-phone.png" width="360" alt="App Federada" style="display:block; width:100%; max-width:360px; height:auto; border:0;">
-                        </td>
-                        <td valign="middle" width="58%">
-                          <p style="margin:0 0 6px 0; color:#4C9BD5; font-size:12px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// El problema</p>
-                          <p style="margin:0 0 20px 0; color:#E5E5E5; font-size:16px; line-height:1.55;">
-                            Revisar a mano facturas, prestaciones y prescripciones —incluso manuscritos y firmas— es lento y abre la puerta al error y al fraude.
-                          </p>
-                          <p style="margin:0 0 6px 0; color:#4C9BD5; font-size:12px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// La solución</p>
-                          <p style="margin:0 0 4px 0; color:#E5E5E5; font-size:16px; line-height:1.55;">
-                            Un agente que lee, interpreta y valida la documentación médica de forma automática: refuerza controles, previene fraude y se integra al core de la organización.
-                          </p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <!-- METRICA: bloque sólido de color, texto oscuro -->
-                <tr>
-                  <td style="padding:0;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#4C9BD5;">
-                      <tr>
-                        <td style="padding:26px 32px;">
-                          <span style="color:#101D30; font-size:48px; font-weight:bold; line-height:0.9;">+140.000</span>
-                          <p style="margin:8px 0 0 0; color:#13233B; font-size:15px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase;">Afiliados impactados</p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
+            <td style="padding:64px 44px 0 44px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid #1c2e49;">
+                <tr><td style="padding-top:40px;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                    <td valign="middle" align="left">
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="56" height="5" style="background-color:#3983B8; font-size:0; line-height:0;">&nbsp;</td>
+                      </tr></table>
+                      <p style="margin:16px 0 0 0; color:#3983B8; font-size:16px; letter-spacing:4px; font-weight:bold; text-transform:uppercase;">Caso 02</p>
+                    </td>
+                    <td valign="middle" align="right">
+                      <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@db070f77729dc54eef4cd6867de9091b15b5bbf9/img/out/hospital-espanol.png" width="130" alt="Hospital Español" style="display:block; width:130px; height:auto; border:0;">
+                    </td>
+                  </tr></table>
+                  <h2 style="margin:24px 0 0 0; color:#FFFFFF; font-size:40px; line-height:1.12; font-weight:bold; letter-spacing:-0.5px;">
+                    Asistente conversacional de atención 24/7
+                  </h2>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding:36px 24px 0 24px;">
+              <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@db070f77729dc54eef4cd6867de9091b15b5bbf9/img/phones/espanol-phones.jpg" width="632" alt="App Hospital Español" style="display:block; width:100%; max-width:632px; height:auto; border:0; margin:0 auto;">
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:28px 44px 0 44px;">
+              <p style="margin:0 0 8px 0; color:#3983B8; font-size:14px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// El problema</p>
+              <p style="margin:0 0 30px 0; color:#E5E5E5; font-size:21px; line-height:1.6;">
+                Canales de atención saturados y pacientes que necesitan respuesta inmediata, también fuera de horario.
+              </p>
+              <p style="margin:0 0 8px 0; color:#3983B8; font-size:14px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// La solución</p>
+              <p style="margin:0; color:#E5E5E5; font-size:21px; line-height:1.6;">
+                Un agente de IA que gestiona turnos y consultas frecuentes en tiempo real, sin esperas y sin sumar carga al equipo.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:36px 44px 0 44px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#3983B8; border-radius:18px;">
+                <tr><td style="padding:34px 40px;">
+                  <span style="color:#101D30; font-size:72px; font-weight:bold; line-height:0.9;">24/7</span>
+                  <p style="margin:12px 0 0 0; color:#13233B; font-size:18px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase;">Disponibilidad de servicio</p>
+                </td></tr>
               </table>
             </td>
           </tr>
 
-          <!-- ============ CASO 02 · HOSPITAL ESPAÑOL (cian) ============ -->
+          <!-- ============ CASO 03 · GRUPO GAMMA ============ -->
           <tr>
-            <td style="padding:22px 22px 0 22px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#13233B; border-radius:22px; overflow:hidden;">
-                <tr>
-                  <td align="center" style="background-color:#3983B8; padding:11px 30px;">
-                    <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@2df0129557efca02896dfe623feba3d8001dcd8b/img/out/hospital-espanol.png" width="118" alt="Hospital Español" style="display:inline-block; width:118px; height:auto; border:0;">
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:30px 32px 0 32px;">
-                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td valign="top" style="padding-right:18px;">
-                          <span style="color:#3983B8; font-size:64px; font-weight:bold; line-height:0.85;">02</span>
-                        </td>
-                        <td valign="middle">
-                          <h2 style="margin:0; color:#FFFFFF; font-size:27px; line-height:1.2; font-weight:bold;">
-                            Asistente conversacional de atención 24/7
-                          </h2>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:26px 26px 4px 18px;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td valign="middle" width="56%" style="padding-right:6px;">
-                          <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@2df0129557efca02896dfe623feba3d8001dcd8b/img/phones/espanol-phones.png" width="400" alt="App Hospital Español" style="display:block; width:100%; max-width:400px; height:auto; border:0;">
-                        </td>
-                        <td valign="middle" width="50%">
-                          <p style="margin:0 0 6px 0; color:#3983B8; font-size:12px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// El problema</p>
-                          <p style="margin:0 0 20px 0; color:#E5E5E5; font-size:16px; line-height:1.55;">
-                            Canales de atención saturados y pacientes que necesitan respuesta inmediata, también fuera de horario.
-                          </p>
-                          <p style="margin:0 0 6px 0; color:#3983B8; font-size:12px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// La solución</p>
-                          <p style="margin:0 0 4px 0; color:#E5E5E5; font-size:16px; line-height:1.55;">
-                            Un agente de IA que gestiona turnos y consultas frecuentes en tiempo real, sin esperas y sin sumar carga al equipo.
-                          </p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:0;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#3983B8;">
-                      <tr>
-                        <td style="padding:26px 32px;">
-                          <span style="color:#101D30; font-size:48px; font-weight:bold; line-height:0.9;">24/7</span>
-                          <p style="margin:8px 0 0 0; color:#13233B; font-size:15px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase;">Disponibilidad de servicio</p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
+            <td style="padding:64px 44px 0 44px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid #1c2e49;">
+                <tr><td style="padding-top:40px;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+                    <td valign="middle" align="left">
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="56" height="5" style="background-color:#4C9BD5; font-size:0; line-height:0;">&nbsp;</td>
+                      </tr></table>
+                      <p style="margin:16px 0 0 0; color:#4C9BD5; font-size:16px; letter-spacing:4px; font-weight:bold; text-transform:uppercase;">Caso 03</p>
+                    </td>
+                    <td valign="middle" align="right">
+                      <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@db070f77729dc54eef4cd6867de9091b15b5bbf9/img/out/gamma.png" width="150" alt="Grupo Gamma" style="display:block; width:150px; height:auto; border:0;">
+                    </td>
+                  </tr></table>
+                  <h2 style="margin:24px 0 0 0; color:#FFFFFF; font-size:40px; line-height:1.12; font-weight:bold; letter-spacing:-0.5px;">
+                    Asistente de IA para registro médico estructurado
+                  </h2>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding:36px 24px 0 24px;">
+              <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@db070f77729dc54eef4cd6867de9091b15b5bbf9/img/out/gamma-card.jpg" width="632" alt="Registro médico por voz" style="display:block; width:100%; max-width:632px; height:auto; border:0; margin:0 auto;">
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:28px 44px 0 44px;">
+              <p style="margin:0 0 8px 0; color:#4C9BD5; font-size:14px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// El problema</p>
+              <p style="margin:0 0 30px 0; color:#E5E5E5; font-size:21px; line-height:1.6;">
+                Gran parte del tiempo médico se va en cargar datos: errores de tipeo y demoras que retrasan la historia clínica.
+              </p>
+              <p style="margin:0 0 8px 0; color:#4C9BD5; font-size:14px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// La solución</p>
+              <p style="margin:0; color:#E5E5E5; font-size:21px; line-height:1.6;">
+                Un asistente que graba la consulta y transcribe la voz directo a campos clínicos, de forma automática.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:36px 44px 0 44px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#4C9BD5; border-radius:18px;">
+                <tr><td style="padding:34px 40px;">
+                  <span style="color:#101D30; font-size:72px; font-weight:bold; line-height:0.9;">CERO</span>
+                  <p style="margin:12px 0 0 0; color:#13233B; font-size:18px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase;">Carga manual de registros</p>
+                </td></tr>
               </table>
             </td>
           </tr>
 
-          <!-- ============ CASO 03 · GRUPO GAMMA (verde) ============ -->
+          <!-- ============ POR QUÉ ZAFIRUS ============ -->
           <tr>
-            <td style="padding:22px 22px 0 22px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#13233B; border-radius:22px; overflow:hidden;">
+            <td style="padding:72px 44px 0 44px;">
+              <span style="color:#4C9BD5; font-size:15px; letter-spacing:5px; font-weight:bold; text-transform:uppercase;">Por qué Zafirus</span>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:28px; border-top:1px solid #1c2e49;">
                 <tr>
-                  <td align="center" style="background-color:#4C9BD5; padding:18px 30px;">
-                    <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@2df0129557efca02896dfe623feba3d8001dcd8b/img/out/gamma.png" width="150" alt="Grupo Gamma" style="display:inline-block; width:150px; height:auto; border:0;">
+                  <td width="50%" valign="top" style="padding:30px 24px 30px 0; border-bottom:1px solid #1c2e49; border-right:1px solid #1c2e49;">
+                    <span style="color:#FFFFFF; font-size:44px; font-weight:bold;">+50</span>
+                    <p style="margin:8px 0 0 0; color:#E5E5E5; font-size:17px;">Soluciones IA</p>
+                  </td>
+                  <td width="50%" valign="top" style="padding:30px 0 30px 28px; border-bottom:1px solid #1c2e49;">
+                    <span style="color:#FFFFFF; font-size:44px; font-weight:bold;">+10 mil</span>
+                    <p style="margin:8px 0 0 0; color:#E5E5E5; font-size:17px;">Casos resueltos sin intervención humana</p>
                   </td>
                 </tr>
                 <tr>
-                  <td style="padding:30px 32px 0 32px;">
-                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td valign="top" style="padding-right:18px;">
-                          <span style="color:#4C9BD5; font-size:64px; font-weight:bold; line-height:0.85;">03</span>
-                        </td>
-                        <td valign="middle">
-                          <h2 style="margin:0; color:#FFFFFF; font-size:27px; line-height:1.2; font-weight:bold;">
-                            Asistente de IA para registro médico estructurado
-                          </h2>
-                        </td>
-                      </tr>
-                    </table>
+                  <td width="50%" valign="top" style="padding:30px 24px 4px 0; border-right:1px solid #1c2e49;">
+                    <span style="color:#FFFFFF; font-size:44px; font-weight:bold;">I+D</span>
+                    <p style="margin:8px 0 0 0; color:#E5E5E5; font-size:17px;">Área propia</p>
                   </td>
-                </tr>
-                <tr>
-                  <td style="padding:26px 26px 4px 18px;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td valign="middle" width="54%" style="padding-right:6px;">
-                          <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@2df0129557efca02896dfe623feba3d8001dcd8b/img/out/gamma-card.png" width="390" alt="Registro médico por voz" style="display:block; width:100%; max-width:390px; height:auto; border:0;">
-                        </td>
-                        <td valign="middle" width="52%">
-                          <p style="margin:0 0 6px 0; color:#4C9BD5; font-size:12px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// El problema</p>
-                          <p style="margin:0 0 20px 0; color:#E5E5E5; font-size:16px; line-height:1.55;">
-                            Gran parte del tiempo médico se va en cargar datos: errores de tipeo y demoras que retrasan la historia clínica.
-                          </p>
-                          <p style="margin:0 0 6px 0; color:#4C9BD5; font-size:12px; letter-spacing:2px; font-weight:bold; text-transform:uppercase;">// La solución</p>
-                          <p style="margin:0 0 4px 0; color:#E5E5E5; font-size:16px; line-height:1.55;">
-                            Un asistente que graba la consulta y transcribe la voz directo a campos clínicos, de forma automática.
-                          </p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:0;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#4C9BD5;">
-                      <tr>
-                        <td style="padding:26px 32px;">
-                          <span style="color:#101D30; font-size:48px; font-weight:bold; line-height:0.9;">CERO</span>
-                          <p style="margin:8px 0 0 0; color:#13233B; font-size:15px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase;">Carga manual de registros</p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-
-          <!-- ============ POR QUÉ ZAFIRUS (tira editorial, sin cards) ============ -->
-          <tr>
-            <td style="padding:42px 36px 0 36px;">
-              <span style="color:#4C9BD5; font-size:13px; letter-spacing:4px; font-weight:bold; text-transform:uppercase;">Por qué Zafirus</span>
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:22px; border-top:1px solid #13233B;">
-                <tr>
-                  <td width="50%" valign="top" style="padding:22px 18px 22px 0; border-bottom:1px solid #13233B; border-right:1px solid #13233B;">
-                    <span style="color:#FFFFFF; font-size:30px; font-weight:bold;">+50</span>
-                    <p style="margin:4px 0 0 0; color:#E5E5E5; font-size:15px;">Soluciones IA</p>
-                  </td>
-                  <td width="50%" valign="top" style="padding:22px 0 22px 22px; border-bottom:1px solid #13233B;">
-                    <span style="color:#FFFFFF; font-size:30px; font-weight:bold;">+10 mil</span>
-                    <p style="margin:4px 0 0 0; color:#E5E5E5; font-size:15px;">Casos resueltos sin intervención humana</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td width="50%" valign="top" style="padding:22px 18px 4px 0; border-right:1px solid #13233B;">
-                    <span style="color:#FFFFFF; font-size:30px; font-weight:bold;">I+D</span>
-                    <p style="margin:4px 0 0 0; color:#E5E5E5; font-size:15px;">Área propia</p>
-                  </td>
-                  <td width="50%" valign="top" style="padding:22px 0 4px 22px;">
-                    <span style="color:#FFFFFF; font-size:30px; font-weight:bold;">Equipo</span>
-                    <p style="margin:4px 0 0 0; color:#E5E5E5; font-size:15px;">Especialista en salud digital</p>
+                  <td width="50%" valign="top" style="padding:30px 0 4px 28px;">
+                    <span style="color:#FFFFFF; font-size:44px; font-weight:bold;">Equipo</span>
+                    <p style="margin:8px 0 0 0; color:#E5E5E5; font-size:17px;">Especialista en salud digital</p>
                   </td>
                 </tr>
               </table>
@@ -305,17 +251,17 @@
 
           <!-- ============ CTA ============ -->
           <tr>
-            <td style="padding:40px 22px 0 22px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#13233B; border-radius:24px;">
+            <td style="padding:64px 44px 0 44px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#13233B; border-radius:28px;">
                 <tr>
-                  <td align="center" style="padding:52px 36px;">
-                    <h2 style="margin:0 0 32px 0; color:#FFFFFF; font-size:34px; line-height:1.15; font-weight:bold; letter-spacing:-0.5px;">
+                  <td align="center" style="padding:64px 40px;">
+                    <h2 style="margin:0 0 38px 0; color:#FFFFFF; font-size:42px; line-height:1.12; font-weight:bold; letter-spacing:-0.5px;">
                       Conversá con nuestros<br>expertos en <span style="color:#4C9BD5;">soluciones IA</span>
                     </h2>
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
                       <tr>
                         <td bgcolor="#4C9BD5" style="border-radius:999px;">
-                          <a href="mailto:pblanch@zafirus.tech?subject=Quiero%20hablar%20con%20Zafirus" style="display:inline-block; padding:18px 44px; font-family:'Sora',Arial,Helvetica,sans-serif; font-size:19px; font-weight:bold; color:#101D30; text-decoration:none; border-radius:999px;">
+                          <a href="mailto:pblanch@zafirus.tech?subject=Quiero%20hablar%20con%20Zafirus" style="display:inline-block; padding:22px 56px; font-family:'Sora',Arial,Helvetica,sans-serif; font-size:22px; font-weight:bold; color:#101D30; text-decoration:none; border-radius:999px;">
                             Escribinos &darr;
                           </a>
                         </td>
@@ -329,15 +275,15 @@
 
           <!-- ============ FOOTER ============ -->
           <tr>
-            <td style="padding:46px 36px 40px 36px; border-top:1px solid #13233B;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <td style="padding:56px 44px 48px 44px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid #1c2e49;">
                 <tr>
-                  <td align="left" valign="middle" style="width:55%;">
-                    <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@2df0129557efca02896dfe623feba3d8001dcd8b/img/out/zafirus.png" width="120" alt="Zafirus" style="display:block; width:120px; height:auto; border:0;">
+                  <td align="left" valign="middle" style="width:55%; padding-top:36px;">
+                    <img src="https://cdn.jsdelivr.net/gh/tvolonte-zafirus/newsletter-sources@db070f77729dc54eef4cd6867de9091b15b5bbf9/img/out/zafirus.png" width="150" alt="Zafirus" style="display:block; width:150px; height:auto; border:0;">
                   </td>
-                  <td align="right" valign="middle" style="width:45%;">
-                    <p style="margin:0; color:#E5E5E5; font-size:14px; line-height:1.5;">IA para la salud</p>
-                    <p style="margin:2px 0 0 0; color:#E5E5E5; font-size:13px;">Rosario, Argentina</p>
+                  <td align="right" valign="middle" style="width:45%; padding-top:36px;">
+                    <p style="margin:0; color:#E5E5E5; font-size:16px; line-height:1.5;">IA para la salud</p>
+                    <p style="margin:3px 0 0 0; color:#E5E5E5; font-size:15px;">Rosario, Argentina</p>
                   </td>
                 </tr>
               </table>
