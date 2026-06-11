@@ -20,9 +20,9 @@ const LOCAL_PATHS = [
   'img/out/federada.png',
   'img/out/hospital-espanol.png',
   'img/out/gamma.png',
-  'img/out/gamma-card.png',
-  'img/phones/federada-phone.png',
-  'img/phones/espanol-phones.png',
+  'img/out/gamma-card.jpg',
+  'img/phones/federada-phone.jpg',
+  'img/phones/espanol-phones.jpg',
 ];
 
 let html = fs.readFileSync(path.join(__dirname, 'newsletter.html'), 'utf8');

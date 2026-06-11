@@ -33,9 +33,9 @@ const IMAGES = {
   'img/out/federada.png':         'federada',
   'img/out/hospital-espanol.png': 'hospitalespanol',
   'img/out/gamma.png':            'gamma',
-  'img/out/gamma-card.png':       'gammacard',
-  'img/phones/federada-phone.png':'federadaphone',
-  'img/phones/espanol-phones.png':'espanolphones',
+  'img/out/gamma-card.jpg':       'gammacard',
+  'img/phones/federada-phone.jpg':'federadaphone',
+  'img/phones/espanol-phones.jpg':'espanolphones',
 };
 
 function buildHtmlAndAttachments() {
